@@ -13,7 +13,7 @@ The app.py file contains a function for finding images that match a given keywor
 
 
 ## Usage
-1. Clone the repository: git clone 
+1. Clone the repository: git clone https://github.com/zhongzha/image_search_nlp.git
 2. Open the terminal and navigate to the project folder
 3. Create a new virtual environment: python -m venv myenv
 4. Activate the virtual environment: (windows) myenv\Scripts\activate OR (Unix/Linux) source myenv/bin/activate
