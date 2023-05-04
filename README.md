@@ -11,6 +11,9 @@ The main.py file contains the main Flask application that serves the UI for the 
 - **Controller: app.py**\
 The app.py file contains a function for finding images that match a given keyword based on the labels in the dictionary. It loads the dictionary from the label.pickle file and calculates the partial match ratio between the keyword and each label in the dictionary using the fuzzywuzzy library. The function returns the closest matching label along with its partial match ratio and a list of paths to the images with that label.
 
+## Screenshot
+![alt text](Screenshot1.png)
+
 ## Usage
 1. Clone the repository: git clone 
 2. Open the terminal and navigate to the project folder
