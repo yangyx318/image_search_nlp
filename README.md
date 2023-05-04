@@ -11,8 +11,6 @@ The main.py file contains the main Flask application that serves the UI for the 
 - **Controller: app.py**\
 The app.py file contains a function for finding images that match a given keyword based on the labels in the dictionary. It loads the dictionary from the label.pickle file and calculates the partial match ratio between the keyword and each label in the dictionary using the fuzzywuzzy library. The function returns the closest matching label along with its partial match ratio and a list of paths to the images with that label.
 
-## Screenshot
-![alt text](Screenshot1.png)
 
 ## Usage
 1. Clone the repository: git clone 
@@ -23,6 +21,10 @@ The app.py file contains a function for finding images that match a given keywor
 6. Preprocessing images: python predict_label.py
 7. Run the project: python main.py
 8. Navigate to http://127.0.0.1:5000/ in your web browser to view the app
+
+
+## Screenshot
+![alt text](Screenshot1.png)
 
 ## Limitations
 The use of a pre-trained MobileNetV2 model and the fuzzywuzzy library can result in errors and inaccuracies in the image search. Especially when certain images are not part of the ImageNet dataset used to train the model. For example, in this program, a Alpaca was recognized as a cat. These limitations can result in incorrect or incomplete search results for the user.
