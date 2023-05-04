@@ -13,14 +13,27 @@ The app.py file contains a function for finding images that match a given keywor
 
 
 ## Usage
-1. Clone the repository: git clone https://github.com/zhongzha/image_search_nlp.git
-2. Open the terminal and navigate to the project folder
-3. Create a new virtual environment: python -m venv myenv
-4. Activate the virtual environment: (windows) myenv\Scripts\activate OR (Unix/Linux) source myenv/bin/activate
-5. Install dependencies: pip install -r requirements.txt
-6. Preprocessing images: python predict_label.py
-7. Run the project: python main.py
-8. Navigate to http://127.0.0.1:5000/ in your web browser to view the app
+1. Clone the repository: 
+```bash
+git clone https://github.com/zhongzha/image_search_nlp.git
+```
+3. Open the terminal and navigate to the project folder
+4. Create virtual environment to install dependencies:
+```bash
+ python -m venv myenv
+ myenv\Scripts\activate 
+  
+ pip install -r requirements.txt
+```
+9. Preprocess the images (for the first time only):
+```bash
+python predict_label.py
+```
+11. Run the project:
+```bash
+python main.py
+```
+13. Open your web browser and navigate to http://127.0.0.1:5000/ to view the app.
 
 
 ## Screenshot
