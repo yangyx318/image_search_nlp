@@ -42,6 +42,6 @@ python main.py
 The use of a pre-trained MobileNetV2 model and the fuzzywuzzy library can result in errors and inaccuracies in the image search. Especially when certain images are not part of the ImageNet dataset used to train the model. For example, in this program, a Alpaca was recognized as a cat. These limitations can result in incorrect or incomplete search results for the user.
 
 ## Contributors
-Yuxuan Yang | yang8364@umn.edu
+Yuxuan Yang | yang8364@umn.edu\
 Samson Zhang | zhongzha@andrew.cmu.edu
 
