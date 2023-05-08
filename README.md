@@ -35,7 +35,7 @@ python predict_label.py
 ```bash
 python main.py
 ```
-13. Open your web browser and navigate to http://127.0.0.1:5000/ to view the app.
+13. Open your web browser and navigate to http://127.0.0.1:5000/ to view the app
 
 
 ## Limitations
